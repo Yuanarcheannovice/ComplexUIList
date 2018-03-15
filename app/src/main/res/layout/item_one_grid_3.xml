@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/iog3_txt"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:drawableBottom="@mipmap/ico_bread"
+    android:drawablePadding="0dp"
+    android:gravity="center"
+    android:paddingBottom="10dp"
+    android:paddingTop="10dp"
+    android:textColor="@color/colorPrimary"
+    android:textSize="14sp"
+    tools:text="冰欺凌">
+
+</TextView>
