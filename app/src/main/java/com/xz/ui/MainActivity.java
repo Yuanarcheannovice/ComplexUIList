@@ -8,7 +8,8 @@ import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 
-import com.xz.ui.fragment.OneFragment;
+import com.xz.ui.fragment.flowlayout.FlowLayoutFragment;
+import com.xz.ui.fragment.one.OneFragment;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -27,8 +28,10 @@ public class MainActivity extends AppCompatActivity {
         tableLayout.setupWithViewPager(viewPager);
 
         mTitles.add("One");
-        mFragments.add(new OneFragment());
+        mTitles.add("Rv+流式布局");
 
+        mFragments.add(new OneFragment());
+        mFragments.add(FlowLayoutFragment.newInstance());
         for (String title : mTitles) {
             tableLayout.addTab(tableLayout.newTab().setText(title));
         }

@@ -1,13 +1,13 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 26
+    compileSdkVersion 27
     defaultConfig {
         applicationId "com.xz.ui"
         minSdkVersion 19
-        targetSdkVersion 26
+        targetSdkVersion 27
         versionCode 1
-        versionName "1.0"
+        versionName "1.0.1"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
@@ -31,5 +31,11 @@ dependencies {
     implementation "com.android.support:support-v4:${supportVersion}"
 //    implementation "com.android.support:cardview-v7:${supportVersion}"
     //adapter的基类（https://github.com/Yuanarcheannovice/XBaseAdapter）
-    implementation 'com.github.Yuanarcheannovice:XBaseAdapter:1.4'
+    implementation ('com.github.Yuanarcheannovice:XBaseAdapter:1.6'){
+        exclude group: 'com.android.support'
+    }
+    implementation 'com.google.code.gson:gson:2.8.2'
+
+    // 流式布局（https://github.com/google/flexbox-layout）
+    implementation 'com.google.android:flexbox:0.3.2'
 }

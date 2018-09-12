@@ -1,4 +1,4 @@
-package com.xz.ui.divider;
+package com.xz.ui.util.divider;
 
 import android.support.annotation.ColorInt;
 

@@ -1,4 +1,4 @@
-package com.xz.ui.divider;
+package com.xz.ui.util.divider;
 
 /**
  * Created by mac on 2017/5/17.

@@ -1,16 +1,16 @@
-package com.xz.ui.entity;
+package com.xz.ui.fragment.one.entity;
 
 /**
  * Created by DEV on 2018/3/15.
  */
 
-public class OneGrid2Entity {
+public class OneGrid3Entity {
     private String txt;
 
-    public OneGrid2Entity() {
+    public OneGrid3Entity() {
     }
 
-    public OneGrid2Entity(String txt) {
+    public OneGrid3Entity(String txt) {
         this.txt = txt;
     }
 

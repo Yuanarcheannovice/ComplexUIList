@@ -1,4 +1,4 @@
-package com.xz.ui.entity;
+package com.xz.ui.fragment.one.entity;
 
 /**
  * Created by DEV on 2018/3/15.

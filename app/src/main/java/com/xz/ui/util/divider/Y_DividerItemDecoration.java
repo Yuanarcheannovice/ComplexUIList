@@ -1,4 +1,4 @@
-package com.xz.ui.divider;
+package com.xz.ui.util.divider;
 
 import android.content.Context;
 import android.graphics.Canvas;
