@@ -2,6 +2,8 @@
 看图说话
 这个使用一个Recyclerview完成的
 
-<img src="https://github.com/Yuanarcheannovice/ComplexUIList/blob/master/img/img_app.jpg" width="50%" >
+<img width="200" height="300" src="https://github.com/Yuanarcheannovice/ComplexUIList/blob/master/img/img_app.jpg"/>
+
+<img width="200" height="300" src="https://github.com/Yuanarcheannovice/ComplexUIList/blob/master/img/img_app_2.png"/>
 
 
